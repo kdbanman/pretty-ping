@@ -1,0 +1,25 @@
+{
+  "name": "prettyping",
+  "version": "1.0.0",
+  "description": "graphical CLI ping tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdbanman/prettyping.git"
+  },
+  "keywords": [
+    "ping"
+  ],
+  "author": "Kirby Banman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kdbanman/prettyping/issues"
+  },
+  "homepage": "https://github.com/kdbanman/prettyping#readme",
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
+}
