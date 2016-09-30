@@ -1,4 +1,5 @@
 var readline = require('readline');
+var color = require('cli-color');
 
 String.prototype.repeat = function (count) {
     if (count < 1) return '';
@@ -30,6 +31,6 @@ rl.on('line', function(line){
         var labelled_bar_str = bar_label_str + bar_str
         console.log(labelled_bar_str);
     } else {
-        console.log(line)
+        console.log(color.red.bold.underline(line))
     }
 })
